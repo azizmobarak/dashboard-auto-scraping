@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+.container{
+  width: 98%;
+  height:auto;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.w-100{
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.w-50{
+  width: 50%;
+}
+
+.w-25{
+  width: 25%;
+}
+
+.w-75{
+  width: 75%;
+}
+
+.h-100{
+  height: 100%;
+}
+
+.h-50{
+  height: 50%;
+}
+
+.h-25{
+  height: 25%;
+}
+
+.input-text{
+  width: 80%;
+  padding:4px;
+  min-height: 23px;
+  margin : 5px 2px 5px;
+  outline-style: hidden;
+  border: 0.1px solid rgb(23, 23, 184);
+  border-radius: 5px;
+  outline-color: blue;
+  outline-width: 0.2px;
+  font-family: 'Courier New', Courier, monospace;
+  min-width: 200px;
+}
+
+
+
+.flex-center-row{
+  display: flex; 
+  align-items:center;
+  justify-content: center;
+  height: auto;
+  flex-direction: row;  
+ }
+ 
+ .flex-center-column{
+     display: flex; 
+     align-items:center;
+     justify-content: center;
+     height: auto;
+     flex-direction: column;  
+}
+
+
+@media only screen  and (max-width:800px){
+  p{
+    font-size: 1.3em !important;
+    text-align: center;
+  }
+  h1{
+    font-size: 1.6em !important;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 1.1em !important;
+    text-align: center;
+    min-width: 200px;
+  }
+
+  a{
+    font-size: 1em !important;
+    text-align: center;
+  }
+  p{
+    font-size: 1em !important;
+    text-align: center;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.flex-row{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.flex-row-start{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flex-row-end{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.flex-col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-col-start{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.flex-col-end{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.vh-100{
+  height: 100vh;
+}
+.vw-100{
+  width: 100vw;
 }
