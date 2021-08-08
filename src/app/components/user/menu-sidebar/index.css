@@ -1,0 +1,17 @@
+.avatar{
+    background-image: url('../../../assets/images/login-bg.jpg');
+    height: 60px;
+    width: 60px;
+    border-radius: 80%;
+}
+
+.menu-li{
+    display: flex;
+    min-height: 40px;
+    border-bottom: 1px white solid;
+    align-items: center;
+}
+
+.menu-li:hover{
+   cursor: pointer;
+}

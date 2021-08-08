@@ -8,16 +8,16 @@ const User=()=>{
 
 
     return(
-      <div className="container w-100 h-100">
+      <div className="container w-100 h-100 mw-200">
        <div className="flex-row h-100">
-           <div style={{backgroundColor:'red'}} className="flex-row-start w-25">
+           <div className="flex-row-start w-15">
                <SideBar/>
            </div>
-           <div style={{backgroundColor:'yellow'}} className="flex-column w-75">
-             <div style={{backgroundColor:'blue'}} className="w-100 flex-row">
+           <div  className="flex-column w-85">
+             <div  className="w-100 flex-row">
                  <Header/>
              </div>
-             <div style={{backgroundColor:'green'}} className="h-100 flex-col">
+             <div className="h-100 flex-col">
                  <Main/>
              </div>
            </div>
